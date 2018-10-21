@@ -1,10 +1,12 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.ML;
 using Microsoft.ML.Data;
 using Microsoft.ML.Models;
+//using Microsoft.ML.Models;
 using Microsoft.ML.Trainers;
 using Microsoft.ML.Transforms;
 
@@ -13,12 +15,42 @@ namespace SentimentAnalysis
     static class Program
     {
         private static string AppPath => Path.GetDirectoryName(Environment.GetCommandLineArgs()[0]);
-        private static string TrainDataPath => Path.Combine(AppPath,"sentiment-imdb-train.txt");
-        private static string TestDataPath => Path.Combine(AppPath,"sentiment-yelp-test.txt");
+        //private static string TrainDataPath => Path.Combine(AppPath, "sentiment-imdb-train.txt");
+        //private static string TestDataPath => Path.Combine(AppPath, "sentiment-yelp-test.txt");
+
+
+
+        private static string TrainDataPath => Path.Combine(AppPath, "sentiment-braf-train.txt");
+        private static string TestDataPath => Path.Combine(AppPath, "sentiment-braf-test.txt");
+
+
         private static string ModelPath => Path.Combine(AppPath, "SentimentModel.zip");
 
         private static async Task Main(string[] args)
         {
+
+            string text = File.ReadAllText(TrainDataPath).ToLower();
+            text = CleanText(text);
+            //text =  Regex.Replace(text, @"[^\w\- ]", "",
+            //    RegexOptions.None, TimeSpan.FromSeconds(1.5));
+
+            File.WriteAllText(TrainDataPath, text);
+             text = File.ReadAllText(TestDataPath).ToLower();
+            text = CleanText(text);
+
+
+            //text = Regex.Replace(text, @"[^\w\- ]", "",
+            //    RegexOptions.None, TimeSpan.FromSeconds(1.5));
+
+
+            File.WriteAllText(TestDataPath, text);
+
+
+
+      
+
+
+
             // STEP 1: Create a model
             var model = await TrainAsync();
 
@@ -37,6 +69,21 @@ namespace SentimentAnalysis
             }
 
             Console.ReadLine();
+        }
+
+        private static string CleanText(string text)
+        {
+            text = Regex.Replace(text, @"http[^\s]+", "");
+            text = Regex.Replace(text, @"braf", "", RegexOptions.IgnoreCase);
+
+            text = Regex.Replace(text, @"(@[A-Za-z0-9_]+)", "");
+            text = Regex.Replace(text, @"(^|\\s)#(\\w*[a-zA-Z_]+\\w*)", "");
+            text = text.Replace("\"", "");
+            text = text.Replace("rt ", "",StringComparison.InvariantCultureIgnoreCase);
+            text = text.Replace("Twitter", "",StringComparison.InvariantCultureIgnoreCase);
+            text = text.Replace("facebook", "", StringComparison.InvariantCultureIgnoreCase);
+            text = text.Replace("@", "", StringComparison.InvariantCultureIgnoreCase);
+            return text;
         }
 
         public static async Task<PredictionModel<SentimentData, SentimentPrediction>> TrainAsync()
