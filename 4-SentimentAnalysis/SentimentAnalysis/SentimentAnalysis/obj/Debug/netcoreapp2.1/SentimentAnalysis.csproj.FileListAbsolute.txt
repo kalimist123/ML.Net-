@@ -13,3 +13,18 @@ E:\projects\ML-for-Dot-Net-developers\4-SentimentAnalysis\SentimentAnalysis\Sent
 E:\projects\ML-for-Dot-Net-developers\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\bin\Debug\netcoreapp2.1\sentiment-braf-test.txt
 E:\projects\ML-for-Dot-Net-developers\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\bin\Debug\netcoreapp2.1\sentiment-braf-train.txt
 E:\projects\ML-for-Dot-Net-developers\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\obj\Debug\netcoreapp2.1\SentimentAnalysis.csprojAssemblyReference.cache
+E:\projects\ML-for-Dot-Net-developers - Copy\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\bin\Debug\netcoreapp2.1\sentiment-braf-test.txt
+E:\projects\ML-for-Dot-Net-developers - Copy\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\bin\Debug\netcoreapp2.1\sentiment-braf-train.txt
+E:\projects\ML-for-Dot-Net-developers - Copy\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\bin\Debug\netcoreapp2.1\sentiment-imdb-train.txt
+E:\projects\ML-for-Dot-Net-developers - Copy\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\bin\Debug\netcoreapp2.1\sentiment-yelp-test.txt
+E:\projects\ML-for-Dot-Net-developers - Copy\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\bin\Debug\netcoreapp2.1\SentimentAnalysis.deps.json
+E:\projects\ML-for-Dot-Net-developers - Copy\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\bin\Debug\netcoreapp2.1\SentimentAnalysis.runtimeconfig.json
+E:\projects\ML-for-Dot-Net-developers - Copy\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\bin\Debug\netcoreapp2.1\SentimentAnalysis.runtimeconfig.dev.json
+E:\projects\ML-for-Dot-Net-developers - Copy\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\bin\Debug\netcoreapp2.1\SentimentAnalysis.dll
+E:\projects\ML-for-Dot-Net-developers - Copy\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\bin\Debug\netcoreapp2.1\SentimentAnalysis.pdb
+E:\projects\ML-for-Dot-Net-developers - Copy\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\obj\Debug\netcoreapp2.1\SentimentAnalysis.csprojAssemblyReference.cache
+E:\projects\ML-for-Dot-Net-developers - Copy\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\obj\Debug\netcoreapp2.1\SentimentAnalysis.csproj.CoreCompileInputs.cache
+E:\projects\ML-for-Dot-Net-developers - Copy\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\obj\Debug\netcoreapp2.1\SentimentAnalysis.AssemblyInfoInputs.cache
+E:\projects\ML-for-Dot-Net-developers - Copy\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\obj\Debug\netcoreapp2.1\SentimentAnalysis.AssemblyInfo.cs
+E:\projects\ML-for-Dot-Net-developers - Copy\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\obj\Debug\netcoreapp2.1\SentimentAnalysis.dll
+E:\projects\ML-for-Dot-Net-developers - Copy\4-SentimentAnalysis\SentimentAnalysis\SentimentAnalysis\obj\Debug\netcoreapp2.1\SentimentAnalysis.pdb

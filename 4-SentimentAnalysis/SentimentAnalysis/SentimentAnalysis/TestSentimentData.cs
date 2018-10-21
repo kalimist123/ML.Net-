@@ -56,11 +56,33 @@ namespace SentimentAnalysis
             new SentimentData
             {
                 SentimentText = "@HeleddAnj wherever you choose Heledd, make sure you are not too far away from facilities, yn enwedig gydar un bach..syniad braf #Adventure ",
+                Sentiment = 0
+            },
+            new SentimentData
+            {
+                SentimentText = "Hi there, we are aware of this video and have reported this matter to Essex Police. As this is now a police matter, we cannot comment further. ",
+                Sentiment = -0
+            },
+
+            
+            new SentimentData
+            {
+                SentimentText = "Differential Radiographic Appearance of BRAF V600E–Mutant met CRC [12/2016] Atreya et al. @JNCCN  https://t.co/dqNWTQgH6z #crcsm #oncorad",
                 Sentiment = 1
             },
 
+            new SentimentData
+            {
+                SentimentText =   "@pmarignani The cool part is that MYC can actually reduce Oncogene induced senescence (OIS) by other oncogenes like BRAF &amp; NRAS: https://t.co/tjyXpNng0g",
+                Sentiment = 1
+            },
 
-          
+            new SentimentData
+            {
+                SentimentText =   "RT @ColinBarker75: Bore braf yn Belgrade. Lovely morning in Belgrade #walesaway #togetherstronger #wales #belgrade #cymru https://t.co/bdI2…",
+                Sentiment = 0
+            },
+           
 
         };
     }

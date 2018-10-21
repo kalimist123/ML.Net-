@@ -3807,11 +3807,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\projects\\ML-for-Dot-Net-developers\\4-SentimentAnalysis\\SentimentAnalysis\\SentimentAnalysis\\SentimentAnalysis.csproj",
+      "projectUniqueName": "E:\\projects\\ML-for-Dot-Net-developers - Copy\\4-SentimentAnalysis\\SentimentAnalysis\\SentimentAnalysis\\SentimentAnalysis.csproj",
       "projectName": "SentimentAnalysis",
-      "projectPath": "E:\\projects\\ML-for-Dot-Net-developers\\4-SentimentAnalysis\\SentimentAnalysis\\SentimentAnalysis\\SentimentAnalysis.csproj",
+      "projectPath": "E:\\projects\\ML-for-Dot-Net-developers - Copy\\4-SentimentAnalysis\\SentimentAnalysis\\SentimentAnalysis\\SentimentAnalysis.csproj",
       "packagesPath": "C:\\Users\\Mick\\.nuget\\packages\\",
-      "outputPath": "E:\\projects\\ML-for-Dot-Net-developers\\4-SentimentAnalysis\\SentimentAnalysis\\SentimentAnalysis\\obj\\",
+      "outputPath": "E:\\projects\\ML-for-Dot-Net-developers - Copy\\4-SentimentAnalysis\\SentimentAnalysis\\SentimentAnalysis\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
